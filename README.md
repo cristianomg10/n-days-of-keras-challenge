@@ -3,7 +3,7 @@
 I'm starting my 'N days of Kera', just trying to challenge myself to learn a bit more everyday
 about this framework. At first, I think about doing this for 30 days, but I may continue longer.
 I don't know much of Kera (and Python), so forgive me if I do something stupid or not too smart,
-or even looking like I want to kill an ant with a cannon.
+or even look like I want to kill an ant with a cannon.
 
 So let's start.
 
@@ -15,4 +15,5 @@ I used the Iris dataset and tried to classify it. I configured 80% of the data f
 and 20% for testing.
 
 ### Results
-The MLP got 100% of accuracy on tests when using in a configuration with 4x64x64x8x3 neurons.
+The MLP got 100% of accuracy on tests when using in a configuration with 4x64x64x8x3 neurons
+and 10000 epochs.
