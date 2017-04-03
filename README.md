@@ -3,7 +3,7 @@
 I'm starting my 'N days of Kera', just trying to challenge myself to learn a bit more everyday
 about this framework. At first, I think about doing this for 30 days, but I may continue longer.
 I don't know much of Kera (and Python), so forgive me if I do something stupid or not too smart,
-or even look like I want to kill an ant with a cannon.
+or even if it looks like I want to kill an ant with a cannon.
 
 So let's start.
 
