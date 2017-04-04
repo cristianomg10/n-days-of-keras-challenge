@@ -17,3 +17,13 @@ and 20% for testing.
 ### Results
 The MLP got 100% of accuracy on tests when using in a configuration with 4x64x64x8x3 neurons
 and 10000 epochs.
+
+## Day 2
+### Description
+(2017-04-04)
+MLP for Regression using Boston Housing dataset.
+I used 13x8x8x1. 
+
+## Results
+Using RELU activation function, it has gotten a good MSE (3.5 x 10^(-3)), but I think it had some kind of 
+overfitting. Later I'll take a deeper look on the dataset and on whether the model is overfit.

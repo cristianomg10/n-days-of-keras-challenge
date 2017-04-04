@@ -1,7 +1,7 @@
 """
 Day 1
 
-MLP multi-class classification.
+MLP multi-class classification using Iris dataset.
 
 """
 
@@ -15,6 +15,11 @@ from random import shuffle
 
 import numpy as np
 
+# Reproducibility
+seed = 7
+np.random.seed(seed)
+
+# Design the MLP
 model = Sequential()
 model.add(Dense(64, activation='sigmoid', input_dim=4))
 model.add(Dropout(0.5))
@@ -35,10 +40,12 @@ iris = datasets.load_iris()
 data = iris.data
 target = iris.target
 
+# Shuffle the data
 c = list(zip(data, target))
 shuffle(c)
 data, target = zip(*c)
 
+# Split the data
 numTotal = len(data)
 percent = round(numTotal * 0.8)
 
@@ -47,13 +54,15 @@ targetTrain = target[0:percent]
 dataTest = data[percent+1:]
 targetTest = target[percent+1:]
 
+# Train the MPL
 model.fit(np.asarray(dataTrain), np.asarray(targetTrain), epochs=10000, verbose=1)
 
+# Apply test on the model
 score = model.evaluate(np.asarray(dataTest), np.asarray(targetTest))
 print(score)
 
 print(model.get_config())
 print(model.predict_classes(np.asarray(data[0:20])))
 
-# print errors
+# Print errors
 print(sum(abs(model.predict_classes(np.asarray(data[0:20])) - target[0:20])))
