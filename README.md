@@ -32,7 +32,8 @@ overfitting. Later I'll take a deeper look on the dataset and on whether the mod
 ### Description
 (2017-04-05)
 MLP for classification using a dataset of students collected by myself.
-I used 16x64x64x8x1 neurons.
+I used 16x64x64x8x1 neurons. In a near future I'll use some technique of feature selection
+to reduce dimensionality of the input.
 
 ## Results
 I have gotten 93.4% of accuracy on tests.

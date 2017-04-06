@@ -64,7 +64,7 @@ model.add(Dense(64, activation='relu', input_dim=16))
 model.add(Dropout(0.5))
 model.add(Dense(64, activation='sigmoid'))
 model.add(Dropout(0.5))
-model.add(Dense(8, activation='sigmoid'))
+model.add(Dense(64, activation='sigmoid'))
 model.add(Dropout(0.5))
 model.add(Dense(1, activation='sigmoid'))
 

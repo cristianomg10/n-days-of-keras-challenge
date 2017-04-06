@@ -54,7 +54,7 @@ targetTrain = target[0:percent]
 dataTest = data[percent+1:]
 targetTest = target[percent+1:]
 
-# Train the MPL
+# Train the MLP
 model.fit(np.asarray(dataTrain), np.asarray(targetTrain), epochs=10000, verbose=1)
 
 # Apply test on the model
