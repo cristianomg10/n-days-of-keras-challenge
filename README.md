@@ -27,3 +27,12 @@ I used 13x8x8x1.
 ## Results
 Using RELU activation function, it has gotten a good MSE (3.5 x 10^(-3)), but I think it had some kind of 
 overfitting. Later I'll take a deeper look on the dataset and on whether the model is overfit.
+
+## Day 4
+### Description
+(2017-04-05)
+MLP for classification using a dataset of students collected by myself.
+I used 16x64x64x8x1 neurons.
+
+## Results
+I have gotten 93.4% of accuracy on tests.
