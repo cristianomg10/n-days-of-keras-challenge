@@ -3,7 +3,7 @@
 I'm starting my 'N days of Kera', just trying to challenge myself to learn a bit more everyday
 about this framework. At first, I think about doing this for 30 days, but I may continue longer.
 I don't know much of Kera (and Python), so forgive me if I do something stupid or not too smart,
-or even if it looks like I want to kill an ant with a cannon.
+or even if it looks like I want to kill an ant with a cannon. I'm just learning, testing and studying :)
 
 So let's start.
 
@@ -28,9 +28,14 @@ I used 13x8x8x1.
 Using RELU activation function, it has gotten a good MSE (3.5 x 10^(-3)), but I think it had some kind of 
 overfitting. Later I'll take a deeper look on the dataset and on whether the model is overfit.
 
+## Day 3
+### Description
+(2017-04-05) MLP for classification using MNIST dataset. I took it from https://github.com/wxs/keras-mnist-tutorial/blob/master/MNIST%20in%20Keras.ipynb .
+I changed it and made my own tests to learn this kind of task.
+
 ## Day 4
 ### Description
-(2017-04-05)
+(2017-04-06)
 MLP for classification using a dataset of students collected by myself.
 I used 16x64x64x8x1 neurons. In a near future I'll use some technique of feature selection
 to reduce dimensionality of the input.
